@@ -1,0 +1,15 @@
+net: "/u/haiwang/projects/Task3/caffenet.prototxt"
+test_iter: 46
+test_interval: 100
+base_lr: 0.0000001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 50000
+display: 20
+max_iter: 50000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "/work/cv2/haiwang/logs/caffenet"
+solver_mode: GPU
+
